@@ -706,6 +706,12 @@ body {
   outline: transparent;
 }
 
+input[type="email"]::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #ffffff;
+  opacity: 1; /* Firefox */
+}
+
 .footer-btn {
   font-weight: 500;
   display: flex;
